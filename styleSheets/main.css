@@ -1,0 +1,66 @@
+/*
+    Anna Kessler
+    11-25-2022
+*/
+* {
+    box-sizing: border-box;
+   }
+body {
+    background-color: lightgreen;
+}
+img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+header {
+    border-bottom: 4px solid black;
+    margin: auto;
+}
+header img {
+    padding: 1em;
+    max-width: 100%;
+    width: 33.33%;
+    float: left;
+}
+h1, h2 {
+    clear: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1 {
+    padding: .5em;
+}
+header nav {
+    text-align: center;
+    padding: 1em;
+    margin: auto;
+
+}
+footer {
+    border-top: 3px solid black;
+    padding: 1em;
+    margin: auto;
+}
+
+a:link {
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(138, 80, 138);
+    font-weight: bold;
+}
+a:hover {
+    color:rgb(89, 11, 161);
+}
+a:visited {
+    color:rgb(203, 123, 203)
+}
+footer a {
+    font-weight: normal;
+}
+
+
+
+
+
+@media screen and (min-width: 40em) {
+ }

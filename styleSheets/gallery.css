@@ -1,0 +1,23 @@
+/*
+    Anna Kessler
+    11-25-2022
+*/
+
+
+#photo-gallery {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    gap: 1em;
+    flex-flow: row;
+    justify-content: center;
+    border-bottom: 2em;
+}
+
+#photo-gallery img {
+    display: inline-block;
+    border: 2px solid black;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
