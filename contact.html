@@ -38,9 +38,48 @@
     </header>
 
     <main>
+        <article id="gardenHours">
+            <p>The garden is open to the public April through October, 3 days a week:</p>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>4pm–7pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>9am – 1pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>10am – 2pm</td>
+                </tr>
+            </table>
+        </article>
         <h2>Questions? Comments?</h2>
         <p>We always love to hear from our fellow gardeners and volunteers. Fill out the form below to get in touch with
             us:</p>
+        <form name="contactForm" action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+            <label for="name">Name:<input type="text" id="name" name="name" placeholder="required" required></label><br>
+            <label for="email">Email:<input type="email" id="email" name="email" placeholder="required" required></label><br>
+            <label for="customerPhone">Phone:<input type="tel" id="customerPhone" placeholder="optional" name="customerPhone"></label><br>
+            <label for="subject">Subject:<input type="text" id="subject" name="subject"></label><br>
+
+            <label for="additionalComments">Questions? Comments? Let us know below:
+                <br>
+                <textarea id="additionalComments" name="additionalComments" rows="5" cols="50" required>
+                    </textarea>
+            </label>
+
+            <div id="bottomButtons">
+                <input type="submit" value="Contact Us">
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
 
     </main>
 
@@ -50,8 +89,10 @@
 
 <footer>
     <span>&#9993; </span><a href="contact.html">Contact Us!</a>
+    <br>
+    <br>
     <address>
-        <span>Developed by: </span><a href="mailto:akessler@madisoncollege.edu">
+        <span id="developerEmail">Developed by: </span><a href="mailto:akessler@madisoncollege.edu">
             akessler@madisoncollege.edu</a>
     </address>
 </footer>
