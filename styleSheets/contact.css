@@ -3,3 +3,44 @@
     11-25-2022
 */
 
+form {
+    border: 4px solid black;
+    width: 65%;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: rgb(198, 154, 94);
+
+}
+
+table {
+    background-color: rgb(198, 154, 94);
+    border: 1em solid rgb(75, 129, 71);
+    margin: auto;
+    text-align: center;
+}
+th, td {
+    border: 1px solid #AB6889;
+  }
+
+p {
+    text-align: center;
+}
+input {
+    display: block;
+}
+
+input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    background-color: #AB6889;
+    color: cornsilk;
+    border: solid 2px rgb(75, 129, 71);
+    padding: 1em;
+    margin: .2em;
+}
+div#bottomButtons {
+    text-align: center;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+    font-weight: bold;
+    border-color: #7D5B9D
+}
