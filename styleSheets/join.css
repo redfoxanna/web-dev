@@ -31,8 +31,9 @@ table {
 }
 
 input[type="radio"], input[type="checkbox"] {
-    display: block;
+    display: inline-block;
 }
+
 input[type="submit"], input[type="reset"] {
     display: inline-block;
     background-color: #AB6889;

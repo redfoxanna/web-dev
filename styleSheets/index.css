@@ -34,6 +34,7 @@ table {
     border: 1em solid rgb(75, 129, 71);
     margin: 1em auto;
     text-align: center;
+    border-collapse: collapse;
 }
 
 td {
