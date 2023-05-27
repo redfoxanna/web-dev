@@ -25,13 +25,27 @@ fieldset legend {
     font-style: italic;
 }
 
+fieldset#experience {
+    padding: 1em;
+}
+
 table {
     border: 1px solid black; 
     background-color: rgb(198, 154, 94);
 }
 
+
+
 input[type="radio"], input[type="checkbox"] {
-    display: block;
+    display: inline-block;
+}
+
+input[type="radio"] {
+    margin: .25em;
+}
+
+input[type="checkbox"] {
+    margin: .75em;
 }
 input[type="submit"], input[type="reset"] {
     display: inline-block;

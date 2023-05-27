@@ -17,9 +17,12 @@ table {
     border: 1em solid rgb(75, 129, 71);
     margin: auto;
     text-align: center;
+    border-collapse: collapse;
+
 }
 th, td {
     border: 1px solid #AB6889;
+    padding: .5em;
   }
 
 p {
@@ -43,4 +46,8 @@ div#bottomButtons {
 input[type="submit"]:hover, input[type="reset"]:hover {
     font-weight: bold;
     border-color: #7D5B9D
+}
+
+textarea#additionalComments {
+    margin-bottom: 1em;
 }
